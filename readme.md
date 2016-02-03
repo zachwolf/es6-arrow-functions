@@ -16,3 +16,5 @@ $ cd es6-arrow-functions
 $ npm install
 $ node server.js
 ```
+
+(If all goes well) This will start a server at `localhost:1618`
