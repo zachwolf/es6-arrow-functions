@@ -1,0 +1,11 @@
+{
+  "name": "es6-arrow-functions",
+  "version": "1.0.0",
+  "description": "Slides for JavaScriptMN lightning talk on es6 arrow functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zach Wolf",
+  "license": "ISC"
+}
