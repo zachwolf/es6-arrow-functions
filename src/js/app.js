@@ -1,7 +1,7 @@
 Reveal.initialize({
 
     // Display controls in the bottom right corner
-    controls: true,
+    controls: false,
 
     // Display a presentation progress bar
     progress: true,
@@ -10,7 +10,7 @@ Reveal.initialize({
     slideNumber: false,
 
     // Push each slide change to the browser history
-    history: false,
+    history: true,
 
     // Enable keyboard shortcuts for navigation
     keyboard: true,

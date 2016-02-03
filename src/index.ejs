@@ -21,15 +21,24 @@
 </head>
 <body>
 	<div class="reveal">
-	    <div class="slides">
-	        <section>Single Horizontal Slide</section>
-	        <section>
-	            <section>Vertical Slide 1</section>
-	            <section>Vertical Slide 2</section>
-	        </section>
-	    </div>
+		<div class="slides">
+			<!-- load all slides -->
+			<% [
+					'intro',
+					'closing'
+				].forEach(function (slide) { %>
+				<section data-markdown>
+					<script type="text/template">
+						<%- include('slides/' + slide + '.md') %>
+					</script>
+				</section>
+			<% }) %>
+		</div>
 	</div>
 
+	<script src="node_modules/reveal.js/lib/js/head.min.js"></script>
+	<script src="node_modules/reveal.js/plugin/markdown/marked.js"></script>
+	<script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
 	<script src="node_modules/reveal.js/js/reveal.js"></script>
 	<script src="js/app.js"></script>
 </body>
