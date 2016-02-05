@@ -1,1 +1,3 @@
-[fncy.gr/jsmn2016](http://fncy.gr/jsmn2016)
+# [ve.al/es6](http://ve.al/es6)
+
+Slides available to follow along
