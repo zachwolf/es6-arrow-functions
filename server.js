@@ -1,3 +1,5 @@
+"use strict"
+
 var Promise = require('bluebird')
 	// server
 	, express = require('express')
@@ -12,7 +14,7 @@ app.locals = {
 	url: `http://localhost:${PORT}`
 }
 
-app.get('/', function (req, res) {
+app.get('/', (req, res) => {
 	res.render('index')
 })
 

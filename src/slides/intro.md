@@ -19,6 +19,30 @@
 	box-shadow: none !important;
 	height: 800px;
 }
+/*
+.glyphicons {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+}
+
+.glyphicons-global {
+	background: url(/img/glyphicons/png/global.png);
+}
+
+.social {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+}
+
+.social-github {
+	background: url(/img/glyphicons-social/png/github.png);
+}
+
+.social-twitter {
+	background: url(/img/glyphicons-social/png/twitter.png);
+}*/
 </style>
 
 
@@ -34,13 +58,16 @@ with my image on the left and links on the right -->
  --><div class="o-split__chunk split__chunk--right">
 			<ul class="v-list">
 				<li>
-					(icon) [zachwolf.com](http://zachwolf.com)
+					<i class="fa fa-twitter"></i>
+					[zachwolf.com](http://zachwolf.com)
 				</li>
 				<li>
-					(icon) [@zachwolf](https://github.com/zachwolf)
+					<i class="fa fa-github"></i>
+					[@zachwolf](https://github.com/zachwolf)
 				</li>
 				<li>
-					(icon) [hellozachwolf](https://twitter.com/hellozachwolf)
+					<i class="fa fa-globe"></i>
+					[hellozachwolf](https://twitter.com/hellozachwolf)
 				</li>
 			</ul>
 		</div>

@@ -10,8 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.2.1",
+    "ejs": "~2.4.1",
     "express": "^4.13.4",
-    "reveal.js": "^3.2.0",
-    "ejs": "~2.4.1"
+    "font-awesome": "^4.5.0",
+    "reveal.js": "^3.2.0"
   }
 }
