@@ -58,16 +58,16 @@ with my image on the left and links on the right -->
  --><div class="o-split__chunk split__chunk--right">
 			<ul class="v-list">
 				<li>
-					<i class="fa fa-twitter"></i>
+					<i class="fa fa-6 fa-globe"></i>
 					[zachwolf.com](http://zachwolf.com)
 				</li>
 				<li>
-					<i class="fa fa-github"></i>
-					[@zachwolf](https://github.com/zachwolf)
+					<i class="fa fa-6 fa-github"></i>
+					[zachwolf](https://github.com/zachwolf)
 				</li>
 				<li>
-					<i class="fa fa-globe"></i>
-					[hellozachwolf](https://twitter.com/hellozachwolf)
+					<i class="fa fa-6 fa-twitter"></i>
+					[@hellozachwolf](https://twitter.com/hellozachwolf)
 				</li>
 			</ul>
 		</div>
