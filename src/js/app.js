@@ -65,7 +65,7 @@ Reveal.initialize({
     transition: 'default', // none/fade/slide/convex/concave/zoom
 
     // Transition speed
-    transitionSpeed: 'default', // default/fast/slow
+    transitionSpeed: 'fast', // default/fast/slow
 
     // Transition style for full page slide backgrounds
     backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
@@ -86,7 +86,14 @@ Reveal.initialize({
     parallaxBackgroundVertical: null,
 
     dependencies: [
-        { src: '/node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        // syntax highlighting
+        {
+            src: '/node_modules/reveal.js/plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+                hljs.initHighlightingOnLoad()
+            }
+        },
     ]
 
 
