@@ -83,6 +83,11 @@ Reveal.initialize({
     // - Calculated automatically unless specified
     // - Set to 0 to disable movement along an axis
     parallaxBackgroundHorizontal: null,
-    parallaxBackgroundVertical: null
+    parallaxBackgroundVertical: null,
+
+    dependencies: [
+        { src: '/node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    ]
+
 
 });
