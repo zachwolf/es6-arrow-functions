@@ -2,7 +2,7 @@
  * Customized version of reveal.js's 'simple' theme
  * Changes:
  *  - removes fonts from `@import`s to ensure slideshow looks correct when used offline
- *  - ...
+ *  - adds large font for code blocks
  * 
  * A simple theme for reveal.js presentations, similar
  * to the default theme. The accent color is darkblue.
@@ -10,8 +10,11 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-/*@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);*/
-/*@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);*/
+
+.reveal pre.code-lg {
+  font-size: 1em;
+}
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/

@@ -2,12 +2,14 @@ parameters
 
 what is valid
 
-```js
-() => {}
-asdf => {}
-(asdf) => {}
-(asdf, asdf) => {}
-(asdf) => {
-	return 'adf'
-}
-```
+<pre class="code-lg">
+  <code class="lang-js">
+    () => {}
+    asdf => {}
+    (asdf) => {}
+    (asdf, asdf) => {}
+    (asdf) => {
+      return 'adf'
+    }
+  </code>
+</pre>
