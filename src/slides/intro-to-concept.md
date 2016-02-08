@@ -6,7 +6,7 @@ var findEls = function (selector) {
 }
 
 // es6
-const findEls = (selector) => {
+var findEls = (selector) => {
 	// ...
 }
   </code>
