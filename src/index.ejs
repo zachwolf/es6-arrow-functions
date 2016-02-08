@@ -13,13 +13,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 	<!-- reveal imports -->
-	<link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
+	<link rel="stylesheet" href="/node_modules/reveal.js/css/reveal.css">
 	<link rel="stylesheet" href="/css/simple.custom.css" id="theme">
 	<link rel="stylesheet" href="/css/news-cycle.font.css">
 	<link rel="stylesheet" href="/css/lato.font.css">
 
 	<!-- Code syntax highlighting -->
-	<link rel="stylesheet" href="node_modules/reveal.js/lib/css/zenburn.css">
+	<link rel="stylesheet" href="/node_modules/reveal.js/lib/css/zenburn.css">
 
 	<!-- icons -->
 	<link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.css">
@@ -33,6 +33,7 @@
 					'follow-along',
 					'intro',
 					'also-know-as',
+					'parameters',
 					'syntax',
 					'arguments',
 					'support',
@@ -53,5 +54,14 @@
 	<script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
 	<script src="node_modules/reveal.js/js/reveal.js"></script>
 	<script src="js/app.js"></script>
+
+	<script>
+		var bottomAnchors = document.querySelectorAll('.l-anchor--bottom .l-anchor__content')
+		Array.prototype.forEach.call(bottomAnchors, function (el, key) {
+			var h = parseInt(window.getComputedStyle(el).height, 10)
+			el.style.bottom = '-' + (h/2) + 'px'
+		})
+	</script>
+
 </body>
 </html>

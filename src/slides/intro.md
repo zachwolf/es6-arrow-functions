@@ -1,3 +1,4 @@
+<!-- move to global style sheet when done -->
 <style>
 .o-split {
   display: table;
@@ -17,58 +18,77 @@
 .reveal-reset {
 	border: none !important;
 	box-shadow: none !important;
+	margin-bottom: 0 !important;
 	height: 800px;
 }
-/*
-.glyphicons {
-	display: inline-block;
-	height: 24px;
-	width: 24px;
+
+.v-list {}
+
+.v-list > li {
+	list-style: none;
 }
 
-.glyphicons-global {
-	background: url(/img/glyphicons/png/global.png);
+.reveal-layout {}
+
+.reveal-layout .l-split {
+	display: flex;
 }
 
-.social {
-	display: inline-block;
-	height: 24px;
-	width: 24px;
+.reveal-layout .l-split__chunk {
+	display: flex;
+	flex: 1;
 }
 
-.social-github {
-	background: url(/img/glyphicons-social/png/github.png);
+.reveal-layout .l-split__chunk--right {}
+
+.l-anchor {
+	position: relative;
+	width: 100%;
 }
 
-.social-twitter {
-	background: url(/img/glyphicons-social/png/twitter.png);
-}*/
+.l-anchor::before {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.l-anchor--bottom {}
+
+.l-anchor__content {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.l-anchor--bottom .l-anchor__content {
+	bottom: 0;
+}
+
 </style>
-
 
 <!-- it's my dream to have a two column layout here
 with my image on the left and links on the right -->
 
-
-<div class="scope-intro">
-	<div class="o-split">
-		<div class="o-split__chunk">
-			<!-- <img src="/img/portrait.png" alt="" class="reveal-reset"> -->
-		</div><!-- 
- --><div class="o-split__chunk split__chunk--right">
+<div class="reveal-layout">
+	<div class="l-split">
+		<div class="l-split__chunk">
+			<div class="l-anchor l-anchor--bottom">
+				<div class="l-anchor__content">
+					<img src="/img/portrait.png" alt="" class="reveal-reset">
+				</div>
+			</div>
+		</div>
+		<div class="l-split__chunk l-split__chunk--right">
 			<ul class="v-list">
 				<li>
 					<i class="fa fa-6 fa-globe"></i>
 					[zachwolf.com](http://zachwolf.com)
-				</li>
 				<li>
 					<i class="fa fa-6 fa-github"></i>
 					[zachwolf](https://github.com/zachwolf)
-				</li>
 				<li>
 					<i class="fa fa-6 fa-twitter"></i>
 					[@hellozachwolf](https://twitter.com/hellozachwolf)
-				</li>
 			</ul>
 		</div>
 	</div>
