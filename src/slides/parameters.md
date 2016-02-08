@@ -1,7 +1,5 @@
 parameters
 
-what is valid
-
 <pre class="code-lg">
   <code class="lang-js">
     () => {}

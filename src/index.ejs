@@ -31,16 +31,17 @@
 			<% [
 					'splash',
 					'follow-along',
-					'intro',
+					'intro-to-self',
+					'intro-to-concept',
 					'also-know-as',
-					'parameters',
 					'syntax',
+					'parameters',
 					'arguments',
 					'support',
 					'recap',
 					'closing'
 				].forEach(function (slide) { %>
-				<section data-markdown>
+				<section data-markdown data-separator="^----$" data-separator-vertical="^---$">
 					<script type="text/template">
 						<%- include('slides/' + slide + '.md') %>
 					</script>

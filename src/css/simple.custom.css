@@ -11,8 +11,66 @@
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 
+.v-list {}
+
+.v-list > li {
+  list-style: none;
+}
+
+/* remove reset's image styles */
+.reveal-reset {
+  border: none !important;
+  box-shadow: none !important;
+  margin-bottom: 0 !important;
+  height: 800px;
+}
+
+/* split column slide */
+
+.reveal-layout {}
+
+.reveal-layout .l-split {
+  display: flex;
+}
+
+.reveal-layout .l-split__chunk {
+  display: flex;
+  flex: 1;
+}
+
+.reveal-layout .l-split__chunk--right {}
+
+.l-anchor {
+  position: relative;
+  width: 100%;
+}
+
+.l-anchor::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.l-anchor--bottom {}
+
+.l-anchor__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.l-anchor--bottom .l-anchor__content {
+  bottom: 0;
+}
+
+/* large code type */
 .reveal pre.code-lg {
   font-size: 1em;
+  box-shadow: none;
+}
+
+.reveal pre.code-lg code {
+  overflow: visible;
 }
 
 /*********************************************
