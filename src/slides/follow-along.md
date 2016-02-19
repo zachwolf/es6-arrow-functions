@@ -1,3 +1,3 @@
-# [ve.al/es6](http://ve.al/es6)
+# [ch.mu/es6](http://ch.mu/es6)
 
 Slides available to follow along
