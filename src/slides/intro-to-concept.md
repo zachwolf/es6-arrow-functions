@@ -1,12 +1,12 @@
 <pre class="code-lg">
   <code class="lang-js">
-// es5
-var findEls = function (selector) {
+// before es6
+function findEls (selector) {
 	// ...
 }
 
 // es6
-var findEls = (selector) => {
+let findEls = (selector) => {
 	// ...
 }
   </code>

@@ -36,7 +36,3 @@
 // returns: {id: 'Jess'}
 // explanation: explicit return inside block returns object
 ((name) => {return {id: name}})('Jess')
-
----
-
-Maybe just write `return`...
