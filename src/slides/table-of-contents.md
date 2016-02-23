@@ -5,7 +5,4 @@
 1. [arguments syntax](/#/1)
 1. [implicit return](/#/3)
 1. [lexical `this`](/#/4)
-1. ???
-1. ???
-1. ???
-1. ???
+1. [browser support](/#/)

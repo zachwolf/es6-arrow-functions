@@ -3,6 +3,8 @@
  * Changes:
  *  - removes fonts from `@import`s to ensure slideshow looks correct when used offline
  *  - adds large font for code blocks
+ *  - changes link color to match zachwolf.com branding
+ *  - adds custom table
  * 
  * A simple theme for reveal.js presentations, similar
  * to the default theme. The accent color is darkblue.
@@ -71,6 +73,45 @@
 
 .reveal pre.code-lg code {
   overflow: visible;
+}
+
+/* link color */
+body .reveal a {
+  color: #D35726; }
+
+body .reveal a:hover {
+  color: #D35726;
+  text-decoration: underline; }
+
+/* custom table */
+.support-table + table {
+  font-size: 14px;
+}
+
+.support-table + table td:not(:first-child) {
+  text-align: center;
+  background: #1E6A15; // green
+}
+
+.support-table + table td:empty {
+  background: #D00D00; // red
+}
+
+.support-table + table td:after {
+  color: white;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 5px 0;
+
+  content: "\f00c";
+}
+
+.support-table + table td:empty:after {
+  content: "\f00d";
 }
 
 /*********************************************
