@@ -1,8 +1,8 @@
 ## Outline
 
-1. [intro to arrow functions](/#/1)
-1. [always anonymous](/#/1)
-1. [arguments syntax](/#/1)
+1. [basic syntax](/#/4)
+1. [always anonymous](/#/5)
+1. [arguments](/#/1)
 1. [implicit return](/#/3)
 1. [lexical `this`](/#/4)
 1. [browser support](/#/)
