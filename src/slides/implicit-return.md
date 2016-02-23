@@ -68,7 +68,7 @@ let name = 'JSMN'
   <code class="lang-js">
 // explicit return in block
 (n => {
-  return {
+	return {
 		name: n
 	}
 })(name) // {name: "JSMN"
