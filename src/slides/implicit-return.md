@@ -2,13 +2,33 @@
 
 ---
 
+#### before es6
+<pre class="code-lg">
+  <code class="lang-js">
+var name = 'JSMN'
+
+(function (n) {
+	return 'hello, ' + n
+})(name) // hello, 'JSMN'
+  </code>
+</pre>
+
+---
+
+#### with es6
 <pre class="code-lg">
   <code class="lang-js">
 let name = 'JSMN'
 
-// no block = implicit `return`
+// implicit `return`
 (n => 'hello, ' + n)(name) // hello, JSMN
+  </code>
+</pre>
 
+---
+
+<pre class="code-lg">
+  <code class="lang-js">
 // block with explicit `return`
 (n => {
 	return 'hello, ' + n
@@ -20,8 +40,6 @@ let name = 'JSMN'
 
 <pre class="code-lg">
   <code class="lang-js">
-let name = 'JSMN'
-
 // empty block
 (n => {})(name) // undefined
 
@@ -38,8 +56,6 @@ let name = 'JSMN'
 
 <pre class="code-lg">
   <code class="lang-js">
-let name = 'JSMN'
-
 // a block with a single label
 (n => {
 	name: n
@@ -71,6 +87,6 @@ let name = 'JSMN'
 	return {
 		name: n
 	}
-})(name) // {name: "JSMN"
+})(name) // {name: "JSMN"}
   </code>
 </pre>
