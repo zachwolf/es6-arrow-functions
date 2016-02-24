@@ -6,9 +6,9 @@
 
 <pre class="code-lg">
   <code class="lang-js">
-function curry (/* arguments */) {
+function curry () {
 	var args = arguments
-	return (/* no arguments */) => {
+	return () => {
 		console.log(arguments) // ["foo"]
 		console.log(args === arguments) // true
 	}
