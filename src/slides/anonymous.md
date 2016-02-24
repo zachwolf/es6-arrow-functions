@@ -17,6 +17,8 @@ add (x, y) => {}
 var add = (x, y) => {
 	return x + y
 }
+
+add(1, 2) // 3
   </code>
 </pre>
 
@@ -39,7 +41,7 @@ var add = (x, y) => {
 <pre class="code-lg">
   <code class="lang-js">
 // as callbacks
-var arr  = [1,2,3]
+var arr  = [1, 2, 3]
   , odds = arr.filter((val) => {
              return val % 2
            })

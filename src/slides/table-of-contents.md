@@ -6,5 +6,4 @@
 1. [implicit return](/#/7)
 1. [passing parameters](/#/8)
 1. [lexical `this`](/#/9)
-1. ? [putting it all together](/#/)
-1. [browser support](/#/)
+1. [browser support](/#/10)
